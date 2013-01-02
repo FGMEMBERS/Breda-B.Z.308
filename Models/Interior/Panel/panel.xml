@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+   <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+    <object-name>console</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -0.008285 </x-m>
+      <y-m> -0.423000 </y-m>
+      <z-m>  0.080000 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -0.008285 </x-m>
+      <y-m>  0.423000 </y-m>
+      <z-m>  0.080000 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -0.007285 </x-m>
+      <y-m> -0.326000 </y-m>
+      <z-m>  0.080000 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -0.007285 </x-m>
+      <y-m>  0.326000 </y-m>
+      <z-m>  0.080000 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m> -0.229 </y-m>
+      <z-m>  0.080 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.229 </y-m>
+      <z-m>  0.080 </z-m>
+    </offsets>
+  </model>
+
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m> -0.520 </y-m>
+      <z-m> -0.030 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.520 </y-m>
+      <z-m> -0.030 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m> -0.229 </y-m>
+      <z-m> -0.030 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.229 </y-m>
+      <z-m> -0.030 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/rpm/rpmLE.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m> -0.130 </y-m>
+      <z-m>  0.020 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/rpm/rpmLI.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m> -0.045 </y-m>
+      <z-m>  0.020 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/rpm/rpmDI.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m>  0.045 </y-m>
+      <z-m>  0.020 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/rpm/rpmDE.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m>  0.130 </y-m>
+      <z-m>  0.020 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
