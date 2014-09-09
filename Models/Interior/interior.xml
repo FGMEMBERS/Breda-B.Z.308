@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>inttour</object-name>
+    <object-name>intporteavantG</object-name>
+    <object-name>intportearriereG</object-name>
+    <object-name>planchet</object-name>
+    <object-name>intportebaie</object-name>
+
+    <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -13.50564 </x-m>
+      <y-m>  -0.39929 </y-m>
+      <z-m>  -0.09827 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Planche de bord -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -14.16223 </x-m>
+      <y-m>   0.00000 </y-m>
+      <z-m>   0.04362 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Animtation des portes -->
+  <animation>
+    <name>IntLaPorteAvant</name>
+    <object-name>intporteavantG</object-name>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>IntLaPorteAvant</object-name>
+    <property>sim/model/door-positions/crew/position-norm</property>
+    <factor> -170 </factor>
+    <axis>
+      <x1-m> -12.23670 </x1-m>
+      <y1-m>  -1.23368 </y1-m>
+      <z1-m>  -0.04958 </z1-m>
+      <x2-m> -12.23670 </x2-m>
+      <y2-m>  -1.20599 </y2-m>
+      <z2-m>   0.41841 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>IntLaPorteAvant</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <name>IntLaPorteArriere</name>
+    <object-name>intportearriereG</object-name>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>IntLaPorteArriere</object-name>
+    <property>sim/model/door-positions/passenger/position-norm</property>
+    <factor> -170 </factor>
+    <axis>
+      <x1-m>  7.68573 </x1-m>
+      <y1-m> -1.23210 </y1-m>
+      <z1-m>  0.28286 </z1-m>
+      <x2-m>  7.68573 </x2-m>
+      <y2-m> -1.22171 </y2-m>
+      <z2-m>  0.52413 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>IntLaPorteArriere</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.passenger.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>intportebaie</object-name>
+    <property>sim/model/door-positions/stair/position-norm</property>
+    <factor> 40 </factor>
+    <center>
+      <x-m>  4.64543 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m> -1.19067 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>intportebaie</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.stair.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+
+</PropertyList>
