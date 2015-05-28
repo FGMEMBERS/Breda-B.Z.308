@@ -16,18 +16,18 @@
   <model>
     <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/asi/asi.xml</path>
     <offsets>
-      <x-m> -0.008285 </x-m>
-      <y-m> -0.423000 </y-m>
-      <z-m>  0.080000 </z-m>
+      <x-m> -0.003 </x-m>
+      <y-m> -0.423 </y-m>
+      <z-m>  0.080 </z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/asi/asi.xml</path>
     <offsets>
-      <x-m> -0.008285 </x-m>
-      <y-m>  0.423000 </y-m>
-      <z-m>  0.080000 </z-m>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.423 </y-m>
+      <z-m>  0.080 </z-m>
     </offsets>
   </model>
 
@@ -35,18 +35,18 @@
   <model>
     <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/ai/ai.xml</path>
     <offsets>
-      <x-m> -0.007285 </x-m>
-      <y-m> -0.326000 </y-m>
-      <z-m>  0.080000 </z-m>
+      <x-m> -0.003 </x-m>
+      <y-m> -0.326 </y-m>
+      <z-m>  0.080 </z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/ai/ai.xml</path>
     <offsets>
-      <x-m> -0.007285 </x-m>
-      <y-m>  0.326000 </y-m>
-      <z-m>  0.080000 </z-m>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.326 </y-m>
+      <z-m>  0.080 </z-m>
     </offsets>
   </model>
 
@@ -88,6 +88,44 @@
     </offsets>
   </model>
 
+  <!-- FLAPS -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/flaps/flaps.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m> -0.423 </y-m>
+      <z-m> -0.030 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/flaps/flaps.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.423 </y-m>
+      <z-m> -0.030 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- RADIO COMPASS -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/radio-compass/radio-compass.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m> -0.326 </y-m>
+      <z-m> -0.030 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/radio-compass/radio-compass.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.326 </y-m>
+      <z-m> -0.030 </z-m>
+    </offsets>
+  </model>
+  
   <!-- VSI -->
   <model>
     <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
@@ -107,6 +145,25 @@
     </offsets>
   </model>
 
+  <!-- COMPASS -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.229 </y-m>
+      <z-m> -0.130 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.229 </y-m>
+      <z-m> -0.130 </z-m>
+    </offsets>
+  </model>
+  
   <!-- RPM -->
   <model>
     <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/rpm/rpmLE.xml</path>
@@ -144,4 +201,41 @@
     </offsets>
   </model>
 
+  <!-- MANFOLD -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/man/manLE.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m> -0.130 </y-m>
+      <z-m> -0.070 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/man/manLI.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m> -0.045 </y-m>
+      <z-m> -0.070 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/man/manDI.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m>  0.045 </y-m>
+      <z-m> -0.070 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/Panel/Instruments/man/manDE.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m>  0.130 </y-m>
+      <z-m> -0.070 </z-m>
+    </offsets>
+  </model>
+  
 </PropertyList>

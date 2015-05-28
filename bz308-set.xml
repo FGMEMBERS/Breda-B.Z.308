@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<!-- <PropertyList include="bz308-jsbsim-cnf.xml"> -->
-<PropertyList include="bz308-yasim-cnf.xml">
+<PropertyList include="bz308-base.xml">
 
   <sim>
 
     <description>Breda B.Z. 308 (YASim)</description>
     <author>BARANGER Emmanuel (3D/FDM)</author>
 
+    <flight-model>yasim</flight-model>
+    <aero>bz308-yasim</aero>
+    
     <rating>
-      <FDM type="int">     2 </FDM>
+      <FDM type="int">     3 </FDM>
       <systems type="int"> 1 </systems>
-      <cockpit type="int"> 1 </cockpit>
+      <cockpit type="int"> 2 </cockpit>
       <model type="int">   4 </model>
     </rating>
 
   </sim>
 
 </PropertyList>
-

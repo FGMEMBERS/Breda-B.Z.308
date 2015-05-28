@@ -1,2 +1,1 @@
-aircraft.livery.init("Aircraft/B-24-Liberator/Models/Liveries");
-
+aircraft.livery.init("Aircraft/Breda-B.Z.308/Models/Liveries");

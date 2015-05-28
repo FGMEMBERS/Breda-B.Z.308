@@ -12,6 +12,11 @@
       <volume>
         <offset>-0.4</offset>
       </volume>
+      <position>
+        <x-m> -6.96415 </x-m>
+        <y-m> -7.94898 </y-m>
+        <z-m> -0.57581 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
@@ -33,6 +38,11 @@
         <property>/engines/engine[0]/cranking</property>
         <factor>1.0</factor>
       </pitch>
+      <position>
+        <x-m> -6.96415 </x-m>
+        <y-m> -7.94898 </y-m>
+        <z-m> -0.57581 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
@@ -48,6 +58,11 @@
         <property>/engines/engine[0]/running</property>
         <factor>1.0</factor>
       </pitch>
+      <position>
+        <x-m> -6.96415 </x-m>
+        <y-m> -7.94898 </y-m>
+        <z-m> -0.57581 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
@@ -76,6 +91,11 @@
         <min>0.0</min>
         <max>1.0</max>
       </pitch>
+      <position>
+        <x-m> -6.96415 </x-m>
+        <y-m> -7.94898 </y-m>
+        <z-m> -0.57581 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
@@ -104,6 +124,11 @@
         <min>0.0</min>
         <max>1.0</max>
       </pitch>
+      <position>
+        <x-m> -6.96415 </x-m>
+        <y-m> -7.94898 </y-m>
+        <z-m> -0.57581 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
@@ -116,6 +141,11 @@
       <volume>
         <offset>-0.4</offset>
       </volume>
+      <position>
+        <x-m> -7.30628 </x-m>
+        <y-m> -3.96711 </y-m>
+        <z-m> -0.99559 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
@@ -137,6 +167,11 @@
         <property>/engines/engine[1]/cranking</property>
         <factor>1.0</factor>
       </pitch>
+      <position>
+        <x-m> -7.30628 </x-m>
+        <y-m> -3.96711 </y-m>
+        <z-m> -0.99559 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
@@ -152,6 +187,11 @@
         <property>/engines/engine[1]/running</property>
         <factor>1.0</factor>
       </pitch>
+      <position>
+        <x-m> -7.30628 </x-m>
+        <y-m> -3.96711 </y-m>
+        <z-m> -0.99559 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
@@ -180,6 +220,11 @@
         <min>0.0</min>
         <max>1.0</max>
       </pitch>
+      <position>
+        <x-m> -7.30628 </x-m>
+        <y-m> -3.96711 </y-m>
+        <z-m> -0.99559 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
@@ -208,6 +253,11 @@
         <min>0.0</min>
         <max>1.0</max>
       </pitch>
+      <position>
+        <x-m> -7.30628 </x-m>
+        <y-m> -3.96711 </y-m>
+        <z-m> -0.99559 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
@@ -220,6 +270,11 @@
       <volume>
         <offset>-0.4</offset>
       </volume>
+      <position>
+        <x-m> -7.30628 </x-m>
+        <y-m>  3.96711 </y-m>
+        <z-m> -0.99559 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
@@ -241,6 +296,11 @@
         <property>/engines/engine[2]/cranking</property>
         <factor>1.0</factor>
       </pitch>
+      <position>
+        <x-m> -7.30628 </x-m>
+        <y-m>  3.96711 </y-m>
+        <z-m> -0.99559 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
@@ -256,6 +316,11 @@
         <property>/engines/engine[2]/running</property>
         <factor>1.0</factor>
       </pitch>
+      <position>
+        <x-m> -7.30628 </x-m>
+        <y-m>  3.96711 </y-m>
+        <z-m> -0.99559 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
@@ -284,6 +349,11 @@
         <min>0.0</min>
         <max>1.0</max>
       </pitch>
+      <position>
+        <x-m> -7.30628 </x-m>
+        <y-m>  3.96711 </y-m>
+        <z-m> -0.99559 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
@@ -312,6 +382,11 @@
         <min>0.0</min>
         <max>1.0</max>
       </pitch>
+      <position>
+        <x-m> -7.30628 </x-m>
+        <y-m>  3.96711 </y-m>
+        <z-m> -0.99559 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
@@ -324,6 +399,11 @@
       <volume>
         <offset>-0.4</offset>
       </volume>
+      <position>
+        <x-m> -6.96415 </x-m>
+        <y-m>  7.94898 </y-m>
+        <z-m> -0.57581 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
@@ -345,6 +425,11 @@
         <property>/engines/engine[3]/cranking</property>
         <factor>1.0</factor>
       </pitch>
+      <position>
+        <x-m> -6.96415 </x-m>
+        <y-m>  7.94898 </y-m>
+        <z-m> -0.57581 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
@@ -360,6 +445,11 @@
         <property>/engines/engine[3]/running</property>
         <factor>1.0</factor>
       </pitch>
+      <position>
+        <x-m> -6.96415 </x-m>
+        <y-m>  7.94898 </y-m>
+        <z-m> -0.57581 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
@@ -388,6 +478,11 @@
         <min>0.0</min>
         <max>1.0</max>
       </pitch>
+      <position>
+        <x-m> -6.96415 </x-m>
+        <y-m>  7.94898 </y-m>
+        <z-m> -0.57581 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
@@ -416,6 +511,11 @@
         <min>0.0</min>
         <max>1.0</max>
       </pitch>
+      <position>
+        <x-m> -6.96415 </x-m>
+        <y-m>  7.94898 </y-m>
+        <z-m> -0.57581 </z-m>
+      </position>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
