@@ -1,19 +1,8 @@
 AC3Db
 MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
-MATERIAL "transparent" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 1 1 1 shi 50 trans 0.85
+MATERIAL "transparent" rgb 1 1 1 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 64 trans 0.85
 OBJECT world
-kids 5
-OBJECT poly
-name "Fuselage"
-loc 0 0 -0
-data 8
-Fuselage
-crease 30.000001
-numvert 2
-0 0 -0
-0 0 -0
-numsurf 0
-kids 0
+kids 4
 OBJECT poly
 name "face"
 loc 0.000581 0 -0
@@ -21,7 +10,7 @@ data 4
 face
 texture "rpm.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 17
 0.005012 -0.000204 -0.038795
 0.005012 0.014628 -0.035845
@@ -145,7 +134,7 @@ data 4
 fond
 texture "rpm.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 128
 -0.001525 0.028514 -0.028514
 -0.001525 0.022403 -0.033529
@@ -956,7 +945,7 @@ data 6
 needle
 texture "rpm.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 20
 0.007491 0.034894 -0.000035
 0.007491 0.032256 -0.001149
@@ -1098,7 +1087,7 @@ name "vitre"
 loc 0 0 -0
 data 5
 vitre
-crease 30.000001
+crease 180.000005
 numvert 33
 0.008577 -0.000001 0.000001
 0.008577 0.031642 -0.021142

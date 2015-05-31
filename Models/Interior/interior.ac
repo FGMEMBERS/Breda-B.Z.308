@@ -1,6 +1,6 @@
 AC3Db
 MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
-MATERIAL "transparent" rgb 0.547091 0.565624 0.595981 amb 1 1 1 emis 0 0 0 spec 1 1 1 shi 64 trans 0.7
+MATERIAL "transparent" rgb 1 1 1 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 64 trans 0.85
 OBJECT world
 kids 7
 OBJECT poly
@@ -8,9 +8,9 @@ name "interieur"
 loc 0.981081 0.020121 0.000001
 data 9
 interieur
-texture "colors.png"
+texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 1829
 7.150789 -0.806288 -0.000001
 4.305976 -0.943268 0.759715
@@ -12960,9 +12960,9 @@ name "intportearriereG"
 loc 0.981081 0.020121 0.000001
 data 16
 intportearriereG
-texture "colors.png"
+texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 72
 6.723294 -0.043875 1.195791
 6.704652 0.036019 1.216932
@@ -13419,9 +13419,9 @@ name "intporteavantG"
 loc 0.981081 0.020121 0.000001
 data 14
 intporteavantG
-texture "colors.png"
+texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 68
 -12.879222 -0.262581 1.258532
 -12.732769 -0.11043 1.287628
@@ -13853,9 +13853,9 @@ name "intportebaie"
 loc 0.981081 0.020121 0.000001
 data 12
 intportebaie
-texture "colors.png"
+texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 46
 3.664346 -1.184941 0.288334
 3.664346 -1.108374 0.565588
@@ -14162,9 +14162,9 @@ name "inttour"
 loc 0.981081 0.020121 0.000001
 data 7
 inttour
-texture "colors.png"
+texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 2176
 4.305977 -0.963268 -0.759717
 3.664345 -1.027391 -0.730905
@@ -23958,7 +23958,7 @@ name "intvitres"
 loc -2.230667 0.650986 -0
 data 9
 intvitres
-crease 30.000001
+crease 180.000005
 numvert 1010
 -9.861827 0.412885 0.610517
 -9.748863 0.423207 0.644784
@@ -28335,9 +28335,9 @@ name "planchet"
 loc 0.981081 0.020121 0.000001
 data 8
 planchet
-texture "colors.png"
+texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 94
 3.664345 -1.210794 -0.000001
 3.664345 -1.184941 0.288333

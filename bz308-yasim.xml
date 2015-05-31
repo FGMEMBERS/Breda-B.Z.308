@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<!-- Breda B.Z.308  BARANGER Emmanuel (2013)
+<!-- Breda B.Z.308        : BARANGER Emmanuel (2013)
+                  Updated : BARANGER Emmanuel (2015)
 
      Sources              : http://en.wikipedia.org/wiki/Breda-Zappata_BZ.308
 
@@ -12,7 +13,7 @@
      Max speed            : 310.47 kt          (    575 km/h )
 -->
 
-<airplane mass="50706">
+<airplane mass="50706" version="YASIM_VERSION_CURRENT">
 
   <approach speed="100" aoa="8" fuel="0.003">
     <control-setting axis="/controls/engines/engine[0]/throttle" value="0.5"/>
@@ -203,7 +204,7 @@
   </propeller>
 
   <!-- Engine right interior-->
-  <propeller x="7.03" y="-3.97848" z="-1.00596"
+  <propeller x="7.30628" y="-3.96711" z="-0.99559"
              mass="2695"
              moment="110"
              radius="1.75"
@@ -228,7 +229,7 @@
   </propeller>
 
   <!-- Engine right exterior-->
-  <propeller x="7.30628" y="-3.96711" z="-0.99559"
+  <propeller x="6.96415" y="-7.94898" z="-0.57581"
              mass="2695"
              moment="110"
              radius="1.75"
@@ -298,7 +299,7 @@
   <tank x="2.3" y="-4.817" z="-0.9" capacity="2000"/>
 
   <!-- Mass distribution -->
-  <ballast x=" 14" y="0" z="-3" mass=" 2500"/>
-  <ballast x="-15" y="0" z=" 3" mass="-2500"/>
-
+  <ballast x=" 14" y="0" z="-1" mass=" 2500"/>
+  <ballast x="-15" y="0" z=" 1" mass="-2500"/>
+  
 </airplane>

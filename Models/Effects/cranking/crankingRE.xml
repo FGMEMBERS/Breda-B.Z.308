@@ -14,11 +14,13 @@
     <condition>
       <and>
         <greater-than>
-          <property>engines/engine[3]/rpm</property>
+          <!-- engines/engine[2]/rpm -->
+          <property>sim/multiplay/generic/float[10]</property>
           <value>30</value>
         </greater-than>
         <equals>
-          <property>engines/engine[3]/cranking</property>
+          <!-- engines/engine[2]/cranking -->
+          <property>sim/multiplay/generic/float[6]</property>
           <value>true</value>
         </equals>
       </and>
@@ -36,26 +38,26 @@
       <phi-min-deg>   -10 </phi-min-deg>
       <phi-max-deg>    50 </phi-max-deg>
       <speed-mps>
-        <value>4</value>
-        <spread>3</spread>
+        <value>  4 </value>
+        <spread> 3 </spread>
       </speed-mps>
       <rotation-speed>
-        <x-min-deg-sec>0</x-min-deg-sec>
-        <y-min-deg-sec>0</y-min-deg-sec>
-        <z-min-deg-sec>0</z-min-deg-sec>
-        <x-max-deg-sec>0</x-max-deg-sec>
-        <y-max-deg-sec>0</y-max-deg-sec>
-        <z-max-deg-sec>0</z-max-deg-sec>
+        <x-min-deg-sec> 0 </x-min-deg-sec>
+        <y-min-deg-sec> 0 </y-min-deg-sec>
+        <z-min-deg-sec> 0 </z-min-deg-sec>
+        <x-max-deg-sec> 0 </x-max-deg-sec>
+        <y-max-deg-sec> 0 </y-max-deg-sec>
+        <z-max-deg-sec> 0 </z-max-deg-sec>
       </rotation-speed>
     </shooter>
-
+    
     <counter>
       <particles-per-sec>
-        <value>40</value>
-        <spread>20</spread>
+        <value>  40 </value>
+        <spread> 20 </spread>
       </particles-per-sec>
     </counter>
-
+    
     <particle>
       <start>
         <color>
@@ -68,7 +70,7 @@
           <value>0.1</value>
         </size>
       </start>
-
+      
       <end>
         <color>
           <red><value>   0.93 </value></red>
@@ -80,22 +82,21 @@
           <value>1.0</value>
         </size>
       </end>
-
+      
       <life-sec>
         <value>3.0</value>
       </life-sec>
-
+      
       <mass-kg>  0.02 </mass-kg>
       <radius-m> 0.1 </radius-m>
     </particle>
-
+    
     <program>
       <fluid>               air  </fluid>
       <gravity type="bool"> true </gravity>
       <wind typ="bool">     true </wind>
     </program>
-
+    
   </particlesystem>
-
+  
 </PropertyList>
-
