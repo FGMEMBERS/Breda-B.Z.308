@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<PropertyList include="bz308-base.xml">
+<PropertyList include="Systems/bz308-base.xml">
 
   <sim>
 
     <description>Breda B.Z. 308 (YASim)</description>
     <author>BARANGER Emmanuel (3D/FDM)</author>
 
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+    
     <flight-model>yasim</flight-model>
-    <aero>bz308-yasim</aero>
+    <aero>Systems/bz308-yasim</aero>
     
     <rating>
       <FDM type="int">     3 </FDM>

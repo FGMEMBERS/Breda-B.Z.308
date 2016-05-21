@@ -2,12 +2,7 @@
 
 <PropertyList>
 
-  <sim include="Systems/views.xml">
-
-    <description>Breda B.Z. 308 (YASim)</description>
-    <author>BARANGER Emmanuel (3D/FDM)</author>
-    <aircraft-version>0.1</aircraft-version>
-    <status>Alpha</status>
+  <sim include="views.xml">
 
     <fuel-fraction>0.8</fuel-fraction>
 
@@ -68,25 +63,19 @@
       </generic>
     </multiplay>
     
-    <flaps>
-      <setting> 0.00 </setting>
-      <setting> 0.25 </setting>
-      <setting> 0.50 </setting>
-      <setting> 0.75 </setting>
-      <setting> 1.00 </setting>
-    </flaps>
+    <flaps include="flaps.xml"/>
 
-    <help include="Systems/help.xml"/>
+    <help include="help.xml"/>
     
-    <menubar include="Dialogs/bz308-menu.xml"/>
+    <menubar include="../Dialogs/bz308-menu.xml"/>
 
   </sim>
 
-  <input include="Systems/bz308-keyboard.xml"/>
+  <input include="bz308-keyboard.xml"/>
   
-  <controls include="Systems/controls.xml"/>
+  <controls include="controls.xml"/>
   
-  <engines include="Systems/engines.xml"/>
+  <engines include="engines.xml"/>
   
   <nasal>
     <doors>
