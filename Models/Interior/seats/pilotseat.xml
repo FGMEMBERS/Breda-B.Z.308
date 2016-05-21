@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- ==============================================================>> 
+<<
+<<                  Breguet 765 Sahara  2 decks - Pilot Seat
+<<
+<<                     Didier Bourguet (didier1963)
+<<                       didier1963@laposte.net
+<<            New cockpit and instruments :3D, Textures, Xml
+<<
+<<                        Team M88 - Dec 2014
+<<
+<<=================================================================-->
+<PropertyList>
+  
+  <path>pilotseat.ac</path>
+  
+  <animation>
+    <object-name>Cushion</object-name>
+    <object-name>CushionBack</object-name>
+    <object-name>CushionBase</object-name>
+    <object-name>SeatBack</object-name>
+    <object-name>SeatBase</object-name>
+    <object-name>SeatLhadjust</object-name>
+    <object-name>SeatLhArm</object-name>
+    <object-name>SeatRhArm</object-name>
+    <object-name>SeatRhadjust</object-name>
+  </animation>
+  
+  <!-- Lh. Armrest Movment -->
+  <animation>
+    <type>rotate</type>
+    <object-name>SeatLhArm</object-name>
+    <property>sim/model/armrest</property>
+    <factor> 93 </factor>
+    <center>
+      <x-m>  0.36412 </x-m>
+      <y-m> -0.27034 </y-m>
+      <z-m>  0.62517</z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <object-name>SeatLhArm</object-name>
+    <action>
+      <button>0</button>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/model/armrest</property>
+      </binding>
+    </action>
+  </animation>
+  
+  <!-- Rh. Armrest Movment -->
+  <animation>
+    <type>rotate</type>
+    <object-name>SeatRhArm</object-name>
+    <property>sim/model/armrest</property>
+    <factor> 93 </factor>
+    <center>
+      <x-m> 0.36412 </x-m>
+      <y-m> 0.27034 </y-m>
+      <z-m> 0.62517 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <object-name>SeatRhArm</object-name>
+    <action>
+      <button>0</button>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/model/armrest</property>
+      </binding>
+    </action>
+  </animation>
+  
+</PropertyList>
