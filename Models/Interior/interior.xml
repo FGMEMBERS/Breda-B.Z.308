@@ -19,12 +19,6 @@
 
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/Breda-B.Z.308/Models/Effects/Glass/glass</inherits-from>
-    <object-name>intvitres</object-name>
-  </effect>
-  
-  <!-- working for Rembrandt -->
-  <effect>
     <inherits-from>Effects/model-transparent</inherits-from>
     <object-name>intvitres</object-name>
   </effect>
@@ -49,6 +43,11 @@
     </offsets>
   </model>
 
+  <!-- Seats -->
+  <model>
+    <path>Aircraft/Breda-B.Z.308/Models/Interior/seats/all-seats.xml</path>
+  </model>
+  
   <!-- Animtation des portes -->
   <animation>
     <name>IntLaPorteAvant</name>
